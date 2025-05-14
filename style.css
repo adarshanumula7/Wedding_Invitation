@@ -1,0 +1,87 @@
+body {
+    font-family: "Georgia", serif;
+    background: #005104;
+    color: #3b1a10;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body.background {
+    background-image: url('background_1.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .invitation {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(102, 148, 85, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(4, 4, 4, 0.247);
+  }
+  
+  header, main, footer {
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #105826;
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 10px;
+    font-size: 3.5em;
+  }
+  
+  .name {
+    color: #491b51;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5em;
+  }
+  
+  section {
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #4b2323;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(180, 215, 189);
+    background-color: #4a8e6d;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #237951;
+    transform: translateY(-2px);
+  }
+  
+  
