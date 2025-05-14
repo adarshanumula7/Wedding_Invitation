@@ -7,7 +7,7 @@ body {
   }
   
   body.background {
-    background-image: url('background_1.jpg'); /* Replace with actual image path */
+    background-image: url('background_2.jpg'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
